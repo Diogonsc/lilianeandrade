@@ -124,11 +124,10 @@ export const oferta = {
 
 export const inclui = [
   "Módulo 01 — Criar um perfil do zero",
-  "Módulo 02 — Configurações do TikTok",
-  "Módulo 03 — Perfil no Brasil e na Gringa",
-  "Módulo 04 — Ativar e utilizar o TikTok Shop",
-  "Módulo 05 — Divulgar e vender contas de forma segura",
-  "Estratégias de conteúdo com apoio de IA",
+  "Módulo 02 — Aprender sobre as configurações do TikTok",
+  "Módulo 03 — Criar perfil no Brasil e na Gringa",
+  "Módulo 04 — Ativar o TikTok Shop com 90% de aprovação",
+  "Módulo 05 — Aprender a divulgar e vender as suas contas de forma segura",
 ] as const;
 
 export const faq = [
