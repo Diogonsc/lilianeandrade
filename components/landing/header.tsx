@@ -43,7 +43,8 @@ export function Header() {
         </Link>
 
         <CtaButton size="sm" href={siteConfig.checkoutUrl} className="shrink-0">
-          QUERO COMEÇAR AGORA
+          <span className="sm:hidden">COMEÇAR AGORA</span>
+          <span className="hidden sm:inline">QUERO COMEÇAR AGORA</span>
         </CtaButton>
       </div>
     </header>
