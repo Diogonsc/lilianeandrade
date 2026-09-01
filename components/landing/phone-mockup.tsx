@@ -1,7 +1,7 @@
 import { Eye, Heart, MessageCircle, Play, Share2, TrendingUp, Users } from "lucide-react";
 import Image from "next/image";
 
-import instructorPhoto from "@/public/images/image.png";
+import instructorPhoto from "@/public/images/image-tk.png";
 import { siteConfig } from "@/lib/site";
 
 function Bar({ height, delay }: { height: number; delay: number }) {
@@ -30,7 +30,7 @@ export function PhoneMockup() {
               fill
               priority
               sizes="(max-width: 640px) 330px, 360px"
-              className="object-cover object-center"
+              className="object-cover object-[center_36%]"
             />
             <div className="pointer-events-none absolute inset-0 z-10 [background-image:linear-gradient(transparent_0,transparent_60%,color-mix(in_oklab,var(--background)_92%,transparent))]" />
 
