@@ -1,22 +1,23 @@
 import type { LucideIcon } from "lucide-react";
 import {
-  BadgeCheck,
   BookOpen,
   Bot,
   Coins,
   Compass,
   EyeOff,
+  Flame,
   Globe2,
   Hand,
   HelpCircle,
   Lock,
+  MessageCircle,
   Rocket,
-  Settings2,
   ShoppingBag,
   Target,
   TrendingDown,
   UserPlus,
   Users,
+  Video,
 } from "lucide-react";
 
 export const problemas: {
@@ -67,34 +68,58 @@ export const modulos: {
   text: string;
 }[] = [
   {
-    n: "MÓDULO 01",
+    n: "01",
     icon: UserPlus,
-    title: "Criar um perfil do zero",
-    text: "Como estruturar um perfil desde o início, com clareza de posicionamento.",
+    title: "Como criar e configurar a sua conta",
+    text: "Do perfil inicial aos ajustes da plataforma para começar com a estrutura certa.",
   },
   {
-    n: "MÓDULO 02",
-    icon: Settings2,
-    title: "Aprender sobre as configurações do TikTok",
-    text: "Entenda os ajustes da plataforma e o que cada configuração representa.",
+    n: "02",
+    icon: Flame,
+    title: "Como aquecer a sua conta",
+    text: "O processo para preparar o perfil e reduzir o risco de travar o crescimento no início.",
   },
   {
-    n: "MÓDULO 03",
+    n: "03",
+    icon: Video,
+    title: "Ferramentas para Criação de vídeos",
+    text: "Recursos práticos para produzir conteúdo com mais agilidade no dia a dia.",
+  },
+  {
+    n: "04",
+    icon: Bot,
+    title: "Criação com IA (Brasil)",
+    text: "Como usar IA para gerar ideias, roteiros e conteúdos pensados para o mercado brasileiro.",
+  },
+  {
+    n: "05",
     icon: Globe2,
-    title: "Criar perfil no Brasil e na Gringa",
-    text: "Diferenças de contexto e como organizar perfis para cada mercado.",
+    title: "Criação com IA (Na gringa)",
+    text: "Aplicação da mesma lógica de criação com IA para perfis voltados ao público internacional.",
   },
   {
-    n: "MÓDULO 04",
+    n: "06",
+    icon: Compass,
+    title: "Outros Nichos",
+    text: "Caminhos e exemplos para adaptar a estratégia a diferentes tipos de conteúdo.",
+  },
+  {
+    n: "07",
     icon: ShoppingBag,
-    title: "Entender como ativar e utilizar o TikTok Shop",
-    text: "O caminho para ativação e utilização da funcionalidade na prática.",
+    title: "Como vender sua conta",
+    text: "Boas práticas e cuidados para divulgar e negociar contas com mais segurança.",
   },
   {
-    n: "MÓDULO 05",
-    icon: BadgeCheck,
-    title: "Aprender estratégias para divulgar e vender suas contas de forma segura",
-    text: "Boas práticas, cuidados e critérios para conduzir esse processo com segurança.",
+    n: "08",
+    icon: Users,
+    title: "Grupo para Divulgar e comprar",
+    text: "Acesso ao grupo para divulgar, encontrar oportunidades e acompanhar o mercado.",
+  },
+  {
+    n: "09",
+    icon: MessageCircle,
+    title: "Suporte exclusivo no WhatsApp",
+    text: "Canal direto para tirar dúvidas durante o treinamento.",
   },
 ];
 
@@ -123,11 +148,15 @@ export const oferta = {
 } as const;
 
 export const inclui = [
-  "Módulo 01 — Criar um perfil do zero",
-  "Módulo 02 — Aprender sobre as configurações do TikTok",
-  "Módulo 03 — Criar perfil no Brasil e na Gringa",
-  "Módulo 04 — Ativar o TikTok Shop com 90% de aprovação",
-  "Módulo 05 — Aprender a divulgar e vender as suas contas de forma segura",
+  "Como criar e configurar a sua conta",
+  "Como aquecer a sua conta",
+  "Ferramentas para Criação de vídeos",
+  "Criação com IA (Brasil)",
+  "Criação com IA (Na gringa)",
+  "Outros Nichos",
+  "Como vender sua conta",
+  "Grupo para Divulgar e comprar",
+  "Suporte exclusivo no WhatsApp",
 ] as const;
 
 export const faq = [
@@ -145,7 +174,7 @@ export const faq = [
   },
   {
     q: "O que será ensinado?",
-    a: "Os cinco módulos do treinamento: criar um perfil do zero, configurações do TikTok, criar perfil no Brasil e na Gringa, como ativar e utilizar o TikTok Shop e estratégias para divulgar e vender contas de forma segura.",
+    a: "O treinamento inclui: como criar e configurar a conta, aquecimento, ferramentas para criação de vídeos, criação com IA no Brasil e na gringa, outros nichos, como vender a conta, grupo para divulgar e comprar, e suporte exclusivo no WhatsApp.",
   },
   {
     q: "Preciso ter experiência com TikTok?",
