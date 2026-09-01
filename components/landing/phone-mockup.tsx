@@ -1,6 +1,7 @@
 import { Eye, Heart, MessageCircle, Play, Share2, TrendingUp, Users } from "lucide-react";
 import Image from "next/image";
 
+import instructorPhoto from "@/public/images/image.png";
 import { siteConfig } from "@/lib/site";
 
 function Bar({ height, delay }: { height: number; delay: number }) {
@@ -24,7 +25,7 @@ export function PhoneMockup() {
 
           <div className="relative aspect-[9/17]">
             <Image
-              src="/images/liliane-andrade.png"
+              src={instructorPhoto}
               alt={siteConfig.instructor}
               fill
               priority
@@ -33,13 +34,7 @@ export function PhoneMockup() {
             />
             <div className="pointer-events-none absolute inset-0 z-10 [background-image:linear-gradient(transparent_0,transparent_60%,color-mix(in_oklab,var(--background)_92%,transparent))]" />
 
-            <div className="absolute inset-x-0 top-9 z-10 flex items-center justify-center gap-5 text-[11px] font-semibold">
-              <span className="text-muted-foreground">Seguindo</span>
-              <span className="relative text-foreground">
-                Para você
-                <span className="absolute -bottom-1.5 left-1/2 h-[2px] w-6 -translate-x-1/2 rounded-full [background-image:var(--gradient-cta)]" />
-              </span>
-            </div>
+            
 
             <div className="absolute top-[42%] left-1/2 z-10 -translate-x-1/2 -translate-y-1/2">
               <div className="grid size-14 place-items-center rounded-full border border-border-strong bg-surface/70 backdrop-blur">
@@ -47,7 +42,7 @@ export function PhoneMockup() {
               </div>
             </div>
 
-            <div className="absolute right-3 bottom-24 z-10 flex flex-col items-center gap-4 text-[10px] text-muted-foreground">
+            <div className="absolute right-3 bottom-14 z-10 flex flex-col items-center gap-4 text-[10px] text-muted-foreground">
               <div className="flex flex-col items-center gap-1">
                 <span className="grid size-9 place-items-center rounded-full border border-border bg-surface-2">
                   <Heart className="size-4 text-pink" aria-hidden="true" />
