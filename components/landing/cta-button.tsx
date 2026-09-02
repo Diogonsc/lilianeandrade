@@ -24,11 +24,20 @@ export function CtaButton({
   variant = "primary",
   className,
 }: CtaButtonProps) {
+  const isExternal = href.startsWith("http");
+
   return (
     <Button
       nativeButton={false}
       variant={variant === "primary" ? "cta" : "cta-ghost"}
-      render={<a href={href} />}
+      render={
+        <a
+          href={href}
+          {...(isExternal
+            ? { target: "_blank", rel: "noopener noreferrer" }
+            : {})}
+        />
+      }
       className={cn(sizes[size], className)}
     >
       {children}
