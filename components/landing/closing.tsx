@@ -1,8 +1,8 @@
-import Image from "next/image";
 import Link from "next/link";
 import { Check } from "lucide-react";
 
 import { CtaButton } from "@/components/landing/cta-button";
+import { InstructorCarousel } from "@/components/landing/instructor-carousel";
 import { OfferPrice } from "@/components/landing/offer-price";
 import { Reveal } from "@/components/landing/reveal";
 import { Section, SectionLabel } from "@/components/landing/sections";
@@ -25,24 +25,7 @@ export function Autoridade() {
       <div className="glow-blob top-1/3 left-[-8%] h-[360px] w-[360px] bg-purple opacity-20" />
       <div className="relative grid gap-12 lg:grid-cols-[0.85fr_1.15fr] lg:items-center">
         <Reveal>
-          <figure className="relative mx-auto max-w-sm">
-            <div className="absolute -inset-3 rounded-[2rem] border border-border" />
-            <div className="relative overflow-hidden rounded-[1.6rem] border border-border-strong bg-surface">
-              <Image
-                src="/images/liliane-andrade.png"
-                alt={`Retrato profissional de ${siteConfig.instructor}, instrutora do treinamento TikTok Monetizado`}
-                width={1024}
-                height={1280}
-                sizes="(max-width: 1024px) 80vw, 380px"
-                className="h-full w-full object-cover"
-              />
-              <div className="pointer-events-none absolute inset-0 [background-image:linear-gradient(to_top,color-mix(in_oklab,var(--background)_85%,transparent),transparent_45%)]" />
-              <figcaption className="absolute inset-x-4 bottom-4 rounded-2xl border border-border bg-background/70 px-4 py-3 backdrop-blur">
-                <p className="text-[10px] tracking-[0.22em] text-muted-foreground">INSTRUTORES</p>
-                <p className="mt-1 truncate text-sm font-bold">{siteConfig.instructor}</p>
-              </figcaption>
-            </div>
-          </figure>
+          <InstructorCarousel />
         </Reveal>
 
         <div>
@@ -59,8 +42,8 @@ export function Autoridade() {
           </Reveal>
           <Reveal delay={140}>
             <p className="mt-6 text-base leading-relaxed text-muted-foreground sm:text-lg">
-              {siteConfig.instructor} conduz o treinamento {siteConfig.name}: um curso 100% online e
-              prático para estruturar o perfil, criar conteúdos estratégicos e entender as
+              {siteConfig.instructor} conduzem o treinamento {siteConfig.name}: um curso 100% online
+              e prático para estruturar o perfil, criar conteúdos estratégicos e entender as
               possibilidades de monetização no TikTok.
             </p>
           </Reveal>

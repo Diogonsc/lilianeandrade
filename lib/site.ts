@@ -19,6 +19,23 @@ export const siteConfig = {
   ],
 } as const;
 
+export const instructors = [
+  {
+    name: "Liliane Andrade",
+    role: "Instrutora",
+    image: "/images/liliane-andrade.png",
+    width: 1122,
+    height: 1402,
+  },
+  {
+    name: "Jeferson Lucas",
+    role: "Instrutor",
+    image: "/images/jeferson-lucas.png",
+    width: 439,
+    height: 569,
+  },
+] as const;
+
 export const legalPages = [
   { href: "/termos-de-uso", label: "Termos de Uso" },
   { href: "/politica-de-privacidade", label: "Política de Privacidade" },
