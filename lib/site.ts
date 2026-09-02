@@ -30,7 +30,7 @@ export const instructors = [
   {
     name: "Jeferson Lucas",
     role: "Instrutor",
-    image: "/images/jeferson-lucas.png",
+    image: "/images/jeferson-lucas.jpeg",
     width: 439,
     height: 569,
   },
