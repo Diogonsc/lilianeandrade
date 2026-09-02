@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "TikTok Monetizado",
-  instructor: "Liliane Andrade",
+  instructor: "Liliane Andrade e Jeferson Lucas",
   shortName: "TM",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://lilianeandrade.com.br",
   checkoutUrl: "https://pay.kiwify.com.br/3Vh46ZV",

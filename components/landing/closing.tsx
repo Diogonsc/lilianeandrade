@@ -38,7 +38,7 @@ export function Autoridade() {
               />
               <div className="pointer-events-none absolute inset-0 [background-image:linear-gradient(to_top,color-mix(in_oklab,var(--background)_85%,transparent),transparent_45%)]" />
               <figcaption className="absolute inset-x-4 bottom-4 rounded-2xl border border-border bg-background/70 px-4 py-3 backdrop-blur">
-                <p className="text-[10px] tracking-[0.22em] text-muted-foreground">INSTRUTORA</p>
+                <p className="text-[10px] tracking-[0.22em] text-muted-foreground">INSTRUTORES</p>
                 <p className="mt-1 truncate text-sm font-bold">{siteConfig.instructor}</p>
               </figcaption>
             </div>
