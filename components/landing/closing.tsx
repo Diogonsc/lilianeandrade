@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Check } from "lucide-react";
 
 import { CtaButton } from "@/components/landing/cta-button";
+import { DeveloperCredit } from "@/components/landing/developer-credit";
 import { InstructorCarousel } from "@/components/landing/instructor-carousel";
 import { OfferPrice } from "@/components/landing/offer-price";
 import { Reveal } from "@/components/landing/reveal";
@@ -214,9 +215,12 @@ export function SiteFooter() {
           ))}
         </nav>
       </div>
-      <p className="mx-auto mt-10 max-w-[1200px] text-[11px] text-muted-foreground/70">
-        © {year} {siteConfig.name}. Este produto não possui vínculo com o TikTok.
-      </p>
+      <div className="mx-auto mt-10 flex max-w-[1200px] flex-col gap-2 sm:flex-row sm:items-center sm:justify-between sm:gap-4">
+        <p className="text-[11px] text-muted-foreground/70">
+          © {year} {siteConfig.name}. Este produto não possui vínculo com o TikTok.
+        </p>
+        <DeveloperCredit />
+      </div>
     </footer>
   );
 }

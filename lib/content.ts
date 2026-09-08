@@ -100,8 +100,8 @@ export const modulos: {
   {
     n: "06",
     icon: Compass,
-    title: "Outros Nichos",
-    text: "Caminhos e exemplos para adaptar a estratégia a diferentes tipos de conteúdo.",
+    title: "Como ativar a monetização do seu perfil",
+    text: "Aprenda a ativar a monetização do seu perfil para começar a receber ganhos.",
   },
   {
     n: "07",
@@ -120,6 +120,12 @@ export const modulos: {
     icon: MessageCircle,
     title: "Suporte exclusivo no WhatsApp",
     text: "Canal direto para tirar dúvidas durante o treinamento.",
+  },
+  {
+    n: "10",
+    icon: Video,
+    title: "Aulas gravadas e suporte",
+    text: "Assiata as aulas no seu tempo e conte com nosso suporte sempre que precisar.",
   },
 ];
 
@@ -153,10 +159,11 @@ export const inclui = [
   "Ferramentas para Criação de vídeos",
   "Criação com IA (Brasil)",
   "Criação com IA (Na gringa)",
-  "Outros Nichos",
+  "Como ativar a monetização do seu perfil",
   "Como vender sua conta",
   "Grupo para Divulgar e comprar",
   "Suporte exclusivo no WhatsApp",
+  "Aulas gravadas e suporte",
 ] as const;
 
 export const faq = [

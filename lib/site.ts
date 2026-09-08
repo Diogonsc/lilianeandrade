@@ -40,3 +40,11 @@ export const legalPages = [
   { href: "/termos-de-uso", label: "Termos de Uso" },
   { href: "/politica-de-privacidade", label: "Política de Privacidade" },
 ] as const;
+
+export const developer = {
+  name: "Diogo Nascimento",
+  email: "diogos.nascimento@outlook.com",
+  phone: "+55 21 97381-9373",
+  phoneDigits: "5521973819379",
+  linkedin: "https://www.linkedin.com/in/diogo-nascimento-frontend/",
+} as const;
